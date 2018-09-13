@@ -1,0 +1,154 @@
+/*body start*/
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background-color: #85D6F3;
+}
+.container-fluid
+{
+	padding: 0;
+	 overflow:hidden;
+}
+/*body start*/
+
+/*container start*/
+h1
+{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 4rem;
+	color: #000000;
+}
+.tr, .pl, .cl{
+    border: solid red;
+}
+.ima
+
+.container{
+   overflow:hidden;
+    border: solid;
+    background-color:#b4ddf0;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+
+
+.image {
+    position: absolute;
+    top: 45%;
+    margin: 0 auto;
+    text-align: center;
+    animation:spin 38s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+
+.cloud {
+    position: absolute;
+    bottom: 40%;
+    top: 10%;
+    max-width: 20%;
+  }
+
+.cloud {
+    bottom: 0px;
+    -webkit-animation: cloud 15s infinite linear;
+            animation: cloud 15s infinite linear;
+  }
+  @keyframes cloud {
+
+      0%   { right: -50%; }
+      100% { right: 100%; }
+  }
+  .world_alone
+  {
+  	text-align: center;
+  }
+/*container end*/
+
+/*footer start*/
+.container_footer a
+{
+	color: #000000;
+
+}
+.footer_project
+{
+	background-color: #F8F9FA;
+}
+.row
+{
+	padding: 1px;
+}
+.container_footer a:hover
+{
+	text-decoration: none;
+	color: #85D6F3;
+
+}
+.col-sm-2
+{
+	padding-left: 45px;
+}
+.col-sm
+{
+	text-align: right;
+	padding-right: 60px;
+}
+/*footer end*/
+
+.avatar1 {
+  height: 50px;
+  width: 50px;
+}
+.avatarplane {
+	position: relative;
+}
+.avatar {
+	position: absolute;
+	padding-top: 210px;
+	padding-left: 205px;
+}
+.imgAvatar {
+	padding: 1.8%;
+}
+.grande{
+    max-width: 1200px;
+}
+.modal-header {
+  display: inline-block;
+  background-color: #C1C1C1;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
+.modal-content {
+  border-radius: 2em;
+}
+.modal-footer {
+  background-color: #C1C1C1;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+.modal-footer img {
+	height: 60px;
+	width: 60px;
+}
+.barcode {
+  background: url(barcode1.gif);
+}
+.paragraph {
+  margin-top: 50px;
+}
+.pass h5 {
+  font-size: 20px;
+}
