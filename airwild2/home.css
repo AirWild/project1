@@ -134,8 +134,8 @@ transform: scale(0.65);
 .footer_project
 {
   background-color: #F8F9FA;
-  /*rajoutSim*/
-  position:fixed;
+  /*rajoutSim
+  position:fixed;*/
    left:0px;
    bottom:0px;
    width:100%;

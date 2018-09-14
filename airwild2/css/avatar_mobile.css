@@ -4,7 +4,7 @@
         background-image: url("../images/sol.png");
         background-repeat: no-repeat;
         background-position: bottom;
-        background-color: turquoise;
+        background-color: #85D6F3;
         flex-direction: row;
         background-size: 100% 100%;
 }
