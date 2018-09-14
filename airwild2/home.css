@@ -5,7 +5,13 @@
 }
 body
 {
-	background-color: #85D6F3;
+  background-color: #85D6F3;
+  overflow-x: hidden;
+  /*rajoutSim*/
+  height: 100vh;
+	margin: 0;
+  padding: 0;
+  /*rajoutSim*/
 }
 .container-fluid
 {
@@ -53,23 +59,66 @@ h1
 @keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 
 
-.cloud {
-    position: absolute;
-    bottom: 40%;
-    top: 10%;
-    max-width: 20%;
+#background-wrap {
+  bottom: 0;
+left: 0;
+padding-top: 50px;
+position: fixed;
+right: 0;
+top: 0;
+z-index: -1;
+}
+
+
+@-webkit-keyframes animateCloud {
+  0% {
+      margin-left: -1000px;
   }
+  100% {
+      margin-left: 100%;
+  }
+}
+
+@-moz-keyframes animateCloud {
+  0% {
+      margin-left: -1000px;
+  }
+  100% {
+      margin-left: 100%;
+  }
+}
+
+@keyframes animateCloud {
+  0% {
+      margin-left: -1000px;
+  }
+  100% {
+      margin-left: 100%;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+-webkit-animation: animateCloud 5s linear infinite;
+-moz-animation: animateCloud 5s linear infinite;
+animation: animateCloud 5s linear infinite;
+
+-webkit-transform: scale(0.65);
+-moz-transform: scale(0.65);
+transform: scale(0.65);
+}
+
 
 .cloud {
-    bottom: 0px;
-    -webkit-animation: cloud 15s infinite linear;
-            animation: cloud 15s infinite linear;
-  }
-  @keyframes cloud {
-
-      0%   { right: -50%; }
-      100% { right: 100%; }
-  }
+	background-size:cover;
+	background-image: url('n3.png');
+	background-repeat: no-repeat;
+	height: 520px;
+	position: relative;
+	width: 450px;
+	/*min-width: 50%;*/
+}
   .world_alone
   {
   	text-align: center;
@@ -84,7 +133,18 @@ h1
 }
 .footer_project
 {
-	background-color: #F8F9FA;
+  background-color: #F8F9FA;
+  /*rajoutSim*/
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+   /*rajoutSim*/
+}
+.plane{
+  width: 100%;
+  height: 100%;
+	padding-bottom: 100px;
 }
 .row
 {
@@ -105,19 +165,16 @@ h1
 	text-align: right;
 	padding-right: 60px;
 }
-/*footer end*/
 
-.avatar1 {
-  height: 50px;
-  width: 50px;
-}
 .avatarplane {
-	position: relative;
+		position: relative;
+		left: 120px;
+		bottom: 80px;
 }
 .avatar {
 	position: absolute;
-	padding-top: 210px;
-	padding-left: 205px;
+	padding-top: 28%;
+	padding-left: 26%;
 }
 .imgAvatar {
 	padding: 1.8%;
@@ -127,7 +184,7 @@ h1
 }
 .modal-header {
   display: inline-block;
-  background-color: #C1C1C1;
+  background-color: #FFC34A;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
 }
@@ -135,13 +192,17 @@ h1
   border-radius: 2em;
 }
 .modal-footer {
-  background-color: #C1C1C1;
+  background-color: #FFC34A;
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 2em;
 }
-.modal-footer img {
+.lgfooter img {
 	height: 60px;
 	width: 60px;
+}
+.xsfooter img {
+	height: 40px;
+	width: 40px;
 }
 .barcode {
   background: url(barcode1.gif);
