@@ -1,0 +1,35 @@
+/* règle pour le fond de la rangée pour les avatars avec la planète */
+
+.rowb{
+        background-image: url("../images/sol.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: turquoise;
+        flex-direction: row;
+        background-size: 100% 100%;
+}
+
+.rowb img{
+    width: 80%;
+}
+
+/* ajout et modification des règles bootstrap pour les "cards" bootstrap, au delà 
+de 768px pour le cacher et moins de 768px pour l'afficher */
+
+@media (max-width: 768px){
+    
+    .card{
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+
+    .card-deck{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 769px){
+    .card-deck{
+        visibility: hidden;
+    }
+}
