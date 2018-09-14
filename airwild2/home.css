@@ -1,10 +1,9 @@
 /*body start*/
-*
-{
+*{
 	box-sizing: border-box;
 }
-body
-{
+
+body{
   background-color: #85D6F3;
   overflow-x: hidden;
   /*rajoutSim*/
@@ -13,24 +12,25 @@ body
   padding: 0;
   /*rajoutSim*/
 }
-.container-fluid
-{
-	padding: 0;
-	 overflow:hidden;
+
+.container-fluid{
+  padding: 0;
+  overflow:hidden;
 }
 /*body start*/
 
 /*container start*/
-h1
-{
+h1{
 	text-align: center;
 	margin-top: 50px;
 	font-size: 4rem;
 	color: #000000;
 }
+
 .tr, .pl, .cl{
     border: solid red;
 }
+
 .ima
 
 .container{
@@ -44,15 +44,14 @@ h1
     bottom:0;
 }
 
-
-
 .image {
-    position: absolute;
-    top: 45%;
-    margin: 0 auto;
-    text-align: center;
-    animation:spin 38s linear infinite;
+  position: absolute;
+  top: 45%;
+  margin: 0 auto;
+  text-align: center;
+animation:spin 38s linear infinite;
 }
+
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
@@ -61,12 +60,12 @@ h1
 
 #background-wrap {
   bottom: 0;
-left: 0;
-padding-top: 50px;
-position: fixed;
-right: 0;
-top: 0;
-z-index: -1;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
 
 
@@ -99,14 +98,13 @@ z-index: -1;
 
 /* ANIMATIONS */
 
-.x1 {
--webkit-animation: animateCloud 5s linear infinite;
--moz-animation: animateCloud 5s linear infinite;
-animation: animateCloud 5s linear infinite;
-
--webkit-transform: scale(0.65);
--moz-transform: scale(0.65);
-transform: scale(0.65);
+.x1{
+  -webkit-animation: animateCloud 5s linear infinite;
+  -moz-animation: animateCloud 5s linear infinite;
+  animation: animateCloud 5s linear infinite;
+  -webkit-transform: scale(0.65);
+  -moz-transform: scale(0.65);
+  transform: scale(0.65);
 }
 
 
@@ -119,18 +117,17 @@ transform: scale(0.65);
 	width: 450px;
 	/*min-width: 50%;*/
 }
-  .world_alone
-  {
-  	text-align: center;
-  }
+
+.world_alone{
+  text-align: center;
+}
 /*container end*/
 
 /*footer start*/
-.container_footer a
-{
+.container_footer a{
 	color: #000000;
-
 }
+
 .footer_project
 {
   background-color: #F8F9FA;
@@ -141,75 +138,85 @@ transform: scale(0.65);
    width:100%;
    /*rajoutSim*/
 }
+
 .plane{
   width: 100%;
   height: 100%;
 	padding-bottom: 100px;
 }
-.row
-{
+
+.row{
 	padding: 1px;
 }
+
 .container_footer a:hover
 {
 	text-decoration: none;
 	color: #85D6F3;
-
 }
-.col-sm-2
-{
+
+.col-sm-2{
 	padding-left: 45px;
 }
-.col-sm
-{
+
+.col-sm{
 	text-align: right;
 	padding-right: 60px;
 }
 
-.avatarplane {
-		position: relative;
-		left: 120px;
-		bottom: 80px;
+.avatarplane{
+  position: relative;
+  left: 120px;
+  bottom: 80px;
 }
-.avatar {
+.avatar{
 	position: absolute;
 	padding-top: 28%;
 	padding-left: 26%;
 }
-.imgAvatar {
+
+.imgAvatar{
 	padding: 1.8%;
 }
+
 .grande{
-    max-width: 1200px;
+  max-width: 1200px;
 }
-.modal-header {
+.modal-header{
   display: inline-block;
   background-color: #FFC34A;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
 }
-.modal-content {
+
+.modal-content{
   border-radius: 2em;
 }
-.modal-footer {
+
+.modal-footer{
   background-color: #FFC34A;
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 2em;
 }
-.lgfooter img {
+
+.lgfooter img{
 	height: 60px;
 	width: 60px;
 }
-.xsfooter img {
+
+.xsfooter img{
 	height: 40px;
 	width: 40px;
 }
-.barcode {
+
+.barcode{
   background: url(barcode1.gif);
 }
-.paragraph {
+
+.paragraph{
   margin-top: 50px;
 }
-.pass h5 {
+
+.pass h5{
   font-size: 20px;
 }

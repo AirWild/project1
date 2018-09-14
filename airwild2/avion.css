@@ -1,27 +1,18 @@
-.container{
-    background-image: url("PlaneAirWild.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 600px;
-    align-content: center;
-}
-
 .box{
     border: 2px solid black;
 }
 
-.rowimg{
-    height: 150px;
-    background-image: url("avatar.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+.rang_avion{
+    background-image: url("avion_bs4.png");
     background-position: center;
+    height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+ /*   justify-content: center; */
 }
 
-.row{
-    height: 230px;
-}
-
-.avatar{
-    size: 50%;
+img{
+    max-width: 100%;
+    box-shadow: black;
 }
