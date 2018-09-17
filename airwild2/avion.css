@@ -9,10 +9,19 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     align-items: center;
- /*   justify-content: center; */
+    animation: mymove 5s;
+    animation-timing-function: linear;
+    position: relative;
+/*   justify-content: center; */
+    
 }
 
 img{
     max-width: 100%;
     box-shadow: black;
+}
+
+@keyframes mymove {
+    from {left: -600px;}
+    to {left: 100px;}
 }

@@ -26,10 +26,15 @@ de 768px pour le cacher et moins de 768px pour l'afficher */
     .card-deck{
         flex-direction: row;
     }
+
+    .rang_avion img{
+        visibility: hidden;
+    }
 }
 
 @media (min-width: 769px){
     .card-deck{
         visibility: hidden;
     }
+    
 }
