@@ -4,9 +4,12 @@
         background-image: url("../images/sol.png");
         background-repeat: no-repeat;
         background-position: bottom;
-        background-color: #85D6F3;
+        /* background-color: rgb(51, 196, 248);*/
         flex-direction: row;
         background-size: 100% 100%;
+        animation: rotation 5s;           /* animation translation */
+        animation-timing-function: linear;
+    /*     position: relative;*/
 }
 
 .rowb img{
@@ -37,4 +40,14 @@ de 768px pour le cacher et moins de 768px pour l'afficher */
         visibility: hidden;
     }
     
+}
+
+@keyframes rotation {
+    1% {
+        transform: rotate(10deg);
+    }
+    
+    100% {
+        transform:  rotate(300deg);
+    }
 }

@@ -5,11 +5,11 @@
 .rang_avion{
     background-image: url("avion_bs4.png");
     background-position: center;
-    height: 700px;
+    height: 60vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     align-items: center;
-    animation: mymove 5s;
+    animation: mymove 5s;           /* animation translation */
     animation-timing-function: linear;
     position: relative;
 /*   justify-content: center; */
@@ -24,4 +24,18 @@ img{
 @keyframes mymove {
     from {left: -600px;}
     to {left: 100px;}
+}
+
+@keyframes masuperanimation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translateX(150px) rotate(30deg);
+    }
 }
