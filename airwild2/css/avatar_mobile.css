@@ -25,13 +25,3 @@ de 768px pour le cacher et moins de 768px pour l'afficher */
     }
     
 }
-
-@keyframes rotation {
-    1% {
-        transform: rotate(10deg);
-    }
-    
-    100% {
-        transform:  rotate(300deg);
-    }
-}

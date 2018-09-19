@@ -6,7 +6,7 @@
     background-image: url("PlaneAirWild.png");
     background-position: center;
     height: 60vh;
-    background-size: 90vw 70vh;
+    background-size: contain;
     background-repeat: no-repeat;
     align-items: center;
     animation: mymove 5s;           /* animation translation */
@@ -38,7 +38,7 @@ img{
 
 @keyframes mymove {
     from {left: -600px;}
-    to {left: 100px;}
+    to {left: 1px;}
 }
 
 @keyframes masuperanimation {
@@ -65,9 +65,9 @@ img{
     margin-right: auto; 
     width: 100%;
     left: 3vh;
-    
   }
 .terra {
+   
   display: block;
   z-index: -1;
   bottom: -50vw;
@@ -79,6 +79,9 @@ img{
   -webkit-animation: rotating 60s linear infinite;
 }
 
+.rowb{
+    z-index: 1;
+}
 
 @-webkit-keyframes rotating {
     from{
