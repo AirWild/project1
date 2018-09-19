@@ -6,7 +6,7 @@
     background-image: url("PlaneAirWild.png");
     background-position: center;
     height: 60vh;
-    background-size: 100% 100%;
+    background-size: 90vw 70vh;
     background-repeat: no-repeat;
     align-items: center;
     animation: mymove 5s;           /* animation translation */
@@ -17,14 +17,18 @@
 }
 
 .hublot{
-    border: 2px solid black;
-    background-color: black;
+    border: 2px solid lightgrey;
+    background-color: lightgray;
     border-radius: 15px;
     height: 60px;
     padding-left: 10px;
     padding-top: 5px;
     height: 65px;
     margin-top: 15px;
+}
+
+.col-1{
+    margin-right: 10px;
 }
 
 img{
