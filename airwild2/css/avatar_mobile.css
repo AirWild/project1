@@ -1,21 +1,5 @@
 /* règle pour le fond de la rangée pour les avatars avec la planète */
 
-.rowb{
-        background-image: url("../images/sol.png");
-        background-repeat: no-repeat;
-        background-position: bottom;
-        /* background-color: rgb(51, 196, 248);*/
-        flex-direction: row;
-        background-size: 100% 100%;
-        animation: rotation 5s;           /* animation translation */
-        animation-timing-function: linear;
-    /*     position: relative;*/
-}
-
-.rowb img{
-    width: 80%;
-}
-
 /* ajout et modification des règles bootstrap pour les "cards" bootstrap, au delà 
 de 768px pour le cacher et moins de 768px pour l'afficher */
 
